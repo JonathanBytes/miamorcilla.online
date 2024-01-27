@@ -4,6 +4,7 @@ node_modules
 .env
 .vercel
 .output
+.next
 pnpm-lock.yaml
 yarn.lock
 
