@@ -34,7 +34,6 @@ export default function Header() {
             />
           </svg>
             <ul className='dropdown primary'>
-              <li><Link href='/blog'>Blog</Link></li>
               <li><Link href='/gallery'>Galería</Link></li>
             </ul>
           </li>
@@ -51,7 +50,6 @@ export default function Header() {
               />
             </svg>
               <ul className='dropdown'>
-                <li><Link onClick={ButtonToggle} className='first-a' href='/blog'>Blog</Link></li>
                 <li><Link onClick={ButtonToggle} className='first-a' href='/gallery'>Galería</Link></li>
               </ul>
             </li>
