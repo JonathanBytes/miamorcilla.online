@@ -10,9 +10,7 @@ export default function AltText() {
     strings: [
       'Comer &#127843;',
       'Saltar &#x1f483;',
-      'Dormir &#x1f634;',
-      'Naturaleza &#127807; &#x1F343;',
-      'Tryhard &#x1F525;'
+      'Dormir &#x1f634;'
     ],
     typeSpeed: 100,
     backSpeed: 30,

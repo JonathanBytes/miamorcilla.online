@@ -27,8 +27,8 @@ export default function Index() {
             </g>
           </svg>
           </i>
-          <h2>¡Saludos, cibernauta!</h2>
-          <p>Bienvenido a mi pequeño rincón en línea. Un pedacito de mi mundo en la web.</p>
+          <h2>¡Saludos, gatitos!</h2>
+          <p className='text-center'>Bienvenido a mi pequeño rincón en línea. Hecho para todos esos gatitos con conexión a internet.</p>
         </div>
         <p />
       </main>

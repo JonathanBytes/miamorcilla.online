@@ -23,6 +23,20 @@
   --animation-duration: 0.15s
 }
 
+.serif {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.mono {
+  font-weight: 500;
+  font-family: "IBM Plex Mono";
+  color: var(--purple);
+  font-size: 1.5rem;
+}
+
 .socialsSVG {
   fill: currentColor;
   color: var(--white2);
@@ -400,7 +414,7 @@ footer .footer-logo p {
 /* Hero Styles */
 .hero {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
@@ -551,7 +565,7 @@ footer .footer-logo p {
   transform: scale(1.02);
 }
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 768px) {
   .main-text>* {
     text-align: center;
     font-size: 8vw;
@@ -566,12 +580,13 @@ footer .footer-logo p {
   }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 768px) {
   .hero {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap: 2rem;
   }
 
   .variation {

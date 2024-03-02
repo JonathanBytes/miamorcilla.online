@@ -19,11 +19,8 @@ function ButtonToggle() {
 export default function Header() {
   return (
     <header className='header'>
-      <Link className='home' href='/'>
-        <Image
-          width={180} height={21} className='logo' decoding='async' loading='lazy' src='/assets/logo.webp'
-          alt='JonathanBytes personal logo'
-        />
+      <Link className='home flex justify-center items-center text-center' href='/'>
+        <span className="serif">Mía</span> <span className="mono">Morcilla</span>
       </ Link>
       <nav>
         <ul className='nav'>
